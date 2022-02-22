@@ -1,5 +1,5 @@
 # Calculadora Simples
- Calculadora simples com Python
+ Calculadora simples
 
 Segundo Repositório
 Aplicação utilizando if elif def
