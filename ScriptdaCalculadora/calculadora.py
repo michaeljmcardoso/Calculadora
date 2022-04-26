@@ -36,9 +36,9 @@ Digite a operação matemática que deseja realizar:
     else:
         print('Você não digitou um operador válido, por favor execute o programa de novo! ')
     # Adicionar novamente() função para calcular() função
-    novamente()
+    calcnovamente()
 
-def novamente():
+def calcnovamente():
     calcule_novamente = input('''
 Você quer calcular novamente?
 Por favor digite S para SIM ou N para NÃO.
@@ -50,7 +50,7 @@ Por favor digite S para SIM ou N para NÃO.
     elif calcule_novamente.upper() == 'N':
         print('Até mais! ')
     else:
-        novamente()
+        calcnovamente()
 
 bemvindo()
 calcular()
