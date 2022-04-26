@@ -34,14 +34,14 @@ Digite a operação matemática que deseja realizar:
         print('{} ** {} '.format(numero_1, numero_2))
         print(numero_1 ** numero_2)
     else:
-        print('Você não digitou um operador válido, por favor execute o programa de novo! ')
+        print('Você não digitou um operador válido, por favor execute o programa outra vez! ')
     # Adicionar novamente() função para calcular() função
     calcnovamente()
 
 def calcnovamente():
     calcule_novamente = input('''
 Você quer calcular novamente?
-Por favor digite S para SIM ou N para NÃO.
+Por favor, digite S para SIM ou N para NÃO.
 ''')
     # Se o usuário digitar Y, execute a função calcular()
     if calcule_novamente.upper() == 'S':
