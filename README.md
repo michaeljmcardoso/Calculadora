@@ -1,5 +1,3 @@
 # Calculadora Simples
- Calculadora simples
 
-Segundo Repositório
-Aplicação utilizando if elif def
+Aplicação utilizando Estruturas de Ramificação if e elif
